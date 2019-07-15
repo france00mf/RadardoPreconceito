@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+bloco{
+    padding: 20px;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+}
+
+.text{
+    color: white;
+}
+h6{
+    font-family: 'Teko', sans-serif;
+    font-size: 90px;
+    padding-left: 20px;
+    padding-top:10px;
+    color: #a70c0c;
+
+}
+h7{
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+h8{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+label{
+    font-family: 'B612 Mono', monospace;
+    font-size: 15px;
+}
+input{
+    width: 150px;
+}
+input.placeholder{
+    font-size: 10px;
+}
+fieldset{
+    width: 1000px;
+    height: 1300px;
+}
+p.menu{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.in{
+   background-color: black;
+   color: grey;
+   font-family: 'B612 Mono', monospace;
+    height: 50px;
+}
+.logo{
+    width: 60px;
+    float: left;
+    position: relative;
+    left: -150px;
+}
+h4.menu{
+    font-size: 25px;
+    position: relative;
+    top:28px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+a{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+.den{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
+h5{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+h4{
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 25px;
+}
+h4.tit{
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    font-size: 20px;
+}
+
+.icone:hover{
+    width: 200px;
+    top: 40%;
+
+}
+.b1{
+    height: 1500px;
+    background-image: url('../img/denuncia.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.foot{
+    height: 100px;
+    background-color: #a70c0c;
+}
+.baixo{
+    height: 100px;
+    background-color: black;
+
+}
+.footer{
+    padding-left:0;
+    padding-right:0;
+}
+
+.footer1{
+    height: 100px;
+}
+h5#footerH{
+    font-family: 'Abel', sans-serif;    
+    color:white; 
+    text-align: center; 
+
+}
+
+h5#footerH1{
+    font-family: 'Abel', sans-serif;    
+    color:white; 
+    text-align: center; 
+    position: relative;
+    top: 15px;
+
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: 'B612 Mono', monospace;
+}
+.imgDen{
+    height: 50vh;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px 20px;
+    box-shadow: 0.3em 0.3em 0.3em black;
+    justify: center;
+    display: flex;
+
+}
+
+
+@media(max-width:1240px){
+    .b2{
+        height: 200px;
+    }
+    .foot{
+        top: 2700px;
+    }
+    .baixo{
+        top: 2800px;
+    }
+    .p{
+        font-family: SV Basic Manual, sans-serif;
+        font-size: 20px;
+    }
+    .b2{
+        height: 500px;
+    }
+    .logo{
+        width: 50px;
+        margin-left: 0px;
+        position: relative;
+        left: 0px;
+    }
+    h5#footerH{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 20px;
+        margin: 0px;
+    }
+    h4.tit{
+    position: relative;
+    top: 23px;
+    left: 10px;
+    font-size: 15px;
+    }
+    .imgDen{
+        height: 40vh;
+        text-align: center;
+        border-color: white;
+        border-style: solid;
+        border-width: 15px;
+        border-radius: 20px 20px;
+        box-shadow: 0.3em 0.3em 0.3em black;
+    }
+}
+@media (max-width:500px){
+    .b1{
+        height: 2000px;
+    }
+    .imgDen{
+        height: 30vh;
+        text-align: center;
+        border-color: white;
+        border-style: solid;
+        border-width: 15px;
+        border-radius: 20px 20px;
+        box-shadow: 0.3em 0.3em 0.3em black;
+    }
+}

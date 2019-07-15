@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+h5#footerH{
+    font-family: Instruction, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.dados{
+    background-color: white;
+    border-radius: 10px 10px;
+}
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid white;
+}
+
+.circle:hover{
+    background-color: black;
+    position: absolute;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  top:17%;
+  transform: scale(1.7);
+  -moz-transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.circle:hover img{
+    transform: scale(1.8) overflow;
+    -moz-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+}
+body {
+    background-color:#990000;
+    height: 1280px;
+    width: 98%;
+    padding: 0px;
+    margin: 0px;
+}
+.footer1{
+    height: 100px;
+}
+.footer1.h5{
+    margin-top: 50px;
+}
+
+.footer {
+    position: absolute;
+    top:1000px;
+    bottom:0px;
+    width:100vw;
+}
+.foot{
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 1280px;
+}
+.baixo{
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 1375px;
+}
+@media(max-width:992px){
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media(max-width:726px){
+        h5#footerH{
+            font-size: 15px;
+        }
+        .foot{
+            width: 102%;
+        }
+        .baixo{
+            width: 102%;
+        }
+}

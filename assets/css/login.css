@@ -1,0 +1,34 @@
+.centered{
+    top:50%;
+    left:50%;
+    position: absolute;
+    width:30vw;
+    height:30vw;
+    background-color:white;
+    transform: translate(-50%,-50%);
+}
+
+body{
+    background-color:#B22222;
+}
+.header{
+    background-color: black;
+    position:absolute;
+    left:0;
+}
+.margin{
+    margin-top:13vw;
+}
+@media(max-width:768px){
+    .centered{
+        background-color:white;
+        width:100%;
+        height:100%;
+        top:50%;
+        transform: translate(-50%,-50%);
+    }
+    .margin{
+        margin-top:70vw;
+    }
+
+}

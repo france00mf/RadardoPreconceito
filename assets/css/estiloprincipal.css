@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono|Source+Code+Pro|Special+Elite|Teko|Abel>');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+p{
+    font-family: SV Basic Manual, sans-serif;
+    font-size: 20px;
+}
+p.menu{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.logo{
+    width: 60px;
+    float: left;
+    position: relative;
+    left: -150px;
+}
+h4.menu{
+    font-size: 25px;
+    position: relative;
+    top:28px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+h4.tit{
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    font-size: 20px;
+}
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url('../img/icon.png');
+    height: 1.0em;
+    width: 1.0em;
+}
+
+a{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+h5{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+h4{
+   font-family: 'Special Elite', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.icone{
+    width: 250px;
+    position: relative;
+    top: 50%;
+    transition-property: width 1s;
+    transition-property:  top 1s;
+    transition-duration:  1s;
+}
+.icone:hover{
+    width: 280px;
+    top: 40%;
+
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+.b1{
+    height: 590px;
+    background-image: url("fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    
+}
+.b2{
+    width: 100%;
+    height: 580px;
+    background-color: white;
+}
+.b3{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.b4{
+    width: 100%;
+    height: 600px;
+}
+.img-4{
+    width: 150px;
+    
+    
+}
+.left{
+    padding-left: 20%;
+}
+
+
+.text-4{
+   
+    font-family: SV Basic Manual, sans-serif;
+    margin-top: 10px;
+}
+.foot{
+    height: 100px;
+    background-color: #a70c0c;
+}
+.baixo{
+    height: 100px;
+    background-color: black;
+    
+}
+.footer{
+    padding-left:0;
+    padding-right:0;
+}
+
+.footer1{
+    height: 100px;
+}
+h5#footerH{
+    font-family: 'Abel', sans-serif;    
+    color:white; 
+    text-align: center; 
+}
+h5#footerH1{
+    font-family: 'Abel', sans-serif;    
+    color:white; 
+    text-align: center; 
+    position: relative;
+    top: 15px;
+    
+}
+
+@media(max-width:1000px){
+    .foot{
+        top: 2700px;
+    }
+    .baixo{
+        top: 2800px;
+    }
+    .p{
+        font-family: SV Basic Manual, sans-serif;
+        font-size: 20px;
+    }
+    .b2{
+        height: 1000px;
+    }
+}
+@media (max-width: 992px){
+    
+    .b1{
+        height: 3400px;
+        background-image: url('../img/estatisticas.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    } 
+    
+    .navbar-brand{
+        position: absolute;
+        top: 0px;
+        left: 20%;
+    }
+    .logo{
+        width: 37px;
+        margin-left: 0px;
+        position: relative;
+        top: -3px;
+    }
+    h4.tit{
+        position: relative;
+        top: 13px;
+        left: 10px;
+        font-size: 15px;
+    }
+    .ranking{
+        border-right: 0px;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3.4vw;
+        font-weight: bold;
+        text-align: justify;
+    }
+    
+    h3{
+        font-family: 'Rosario', sans-serif;
+        font-size: 6vw;
+        font-weight: bold;
+        
+    }
+    hr.jornal{
+        height: 0.5vh;
+        background-color: black;
+        width: 90vw;
+    
+    }
+    h6{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5vw;
+        color: black;
+        text-align: left;
+        
+    
+    }
+    .ff{
+        margin-top: 50px;
+    }
+    p.id{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align: justify;
+    }
+    .fim{
+        font-size: 3vw;
+        font-weight: 100;
+    }
+    .g1{
+        width:62vw;
+        height:62vh;
+        margin-left:15vw;
+    }
+    .g2{
+        width:95vw;
+        height:90vh;
+        margin: 0px;
+        padding: 0px;
+    }
+    .g3{
+        width: 92vw;
+        height: 92vh;
+    }
+    .g4{
+        width: 92vw;
+        height: 92vh;
+    }
+    .g5{
+        width: 80%;
+        height: 80%;
+    }
+}

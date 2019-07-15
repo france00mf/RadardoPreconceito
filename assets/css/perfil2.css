@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    background-color:#990000;
+    width: 93%;
+    height: 1000px;
+}
+h{
+    font-family: Segoe UI Light;
+    font-weight: 300;
+}
+
+p{
+   font-family: Segoe UI Light; 
+}
+
+h1{
+    font-family: Segoe UI Light;
+    font-weight: bolder;
+    color: white;
+}
+h5{
+    font-family: Segoe UI Light;
+    font-weight: 300;
+}
+h6{
+    font-family: Segoe UI Light;
+    font-weight: 300;
+}
+
+a{
+    font-family: Segoe UI Light;
+    font-weight: 300;
+}
+.cont{
+    background-color: white;
+    box-shadow: 100px 100px white;
+}
+#conteudo{
+    height: 100vh;
+}
+
+.color{    
+    background-color:#dfdfdf;
+}
+.header{
+   text-align:center;
+   width:100vw;
+}
+.message{
+    height:15vw;
+}
+
+#sidebar {
+  height: 100%;
+  width: 0%;
+  transition: 0.5s;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left: 0;
+  background-color:	#353839;
+  overflow-x:hidden;
+  padding-top: 5vh;
+  color:white;
+}
+#sidebar .sidebar-header{
+    text-align:center;
+    margin-top:10%;
+    background-color:#232b2b;
+}
+
+#sidebar li{
+    padding:0.8vw;
+    margin-top:0.5vh;
+    font-size:1vw;
+}
+#sidebar li.decoration{
+    background-color:#232b2b;
+    width:100%;
+}
+
+.closebtt{
+    font-size:3vw;
+    top:0;
+    margin-left: 95%;
+    position: absolute;
+    color:white;
+    text-decoration: none;
+}
+@media(max-width:768px){
+    #conteudo{
+        height:100%;
+    }
+    .panel1  {
+        margin-left:0px;
+    }
+    .panel2{
+        margin-left:0px;
+        margin-top:5vw;
+    }
+    .panel3{
+        margin-left:0px;
+        margin-top:5vw;
+    }
+    .test{
+        display:block;
+    }
+    .message{
+        height:40vh;
+    }
+}

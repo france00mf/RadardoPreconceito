@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono|Source+Code+Pro|Special+Elite|Teko|Abel>');
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url('../img/icon.png');
+    height: 1.0em;
+    width: 1.0em;
+}
+
+.logo{
+    width: 60px;
+    float: left;
+    position: relative;
+    left: -150px;
+}
+h4.menu{
+    font-size: 25px;
+    position: relative;
+    top:28px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.icone:hover{
+    width: 200px;
+    top: 40%;
+
+}
+h4.tit{
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    font-size: 20px;
+}
+
+h4{
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+@media (max-width: 992px){
+    
+    .navbar-brand{
+        position: absolute;
+        top: 0px;
+        left: 20%;
+    }
+    .logo{
+        width: 37px;
+        margin-left: 0px;
+        position: relative;
+        top: -3px;
+    }
+    h4.tit{
+        position: relative;
+        top: 13px;
+        left: 10px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto';
+}
+body{
+  background-color:#E0E0E0;
+}
+
+
+.mdl-cell{
+        background-color: #bbb;
+        height: 50px;
+      }
+      @media only screen and (min-width: 768px) {
+    .ade1{
+        display: none;
+      }
+}
+    .ade1{
+      height: 50px;
+    }
+    .icones{
+      font-size: 36px;
+      font-weight:1px;
+    }
+    .back{
+      background-color: #5f7d8b;
+    }  
+    .imagens{
+      height: 30px;
+      padding: 0px;
+      margin-top:4vw;
+      margin-left:1vw;
+      
+    }
+    .nav-link{
+      color:white;
+      transition:1s;
+    }
+    .nav-link:hover{
+      color:#E0E0E0;
+      border-bottom:2px solid black;
+    }
+    .labelcolor{
+        color:white;
+        font-size:1px;
+    }
+    #graficos{
+      margin-left:5vw;
+      
+    }
+
+    #denuncia{
+      margin-left:4vw;
+    }
+    #globolabel{
+      margin-right:2vw;
+    }

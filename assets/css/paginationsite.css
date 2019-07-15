@@ -1,0 +1,57 @@
+.page-link {
+ 
+    position: relative;
+   
+    display: block;
+   
+    padding: 0.5rem 0.75rem;
+   
+    margin-left: -1px;
+   
+    line-height: 1.25;
+   
+    color: #fff !important;
+   
+    background-color: #a70c0c;
+   
+    border: 1px solid black;
+   
+  }
+   
+  .page-item.disabled .page-link {
+   
+    color: #fff;
+   
+    pointer-events: none;
+   
+    cursor: auto;
+   
+    background-color: #a70c0c;
+   
+    border-color: black;
+   
+  }
+   
+  .page-item.active .page-link {
+   
+    z-index: 1;
+   
+    color: white;
+   
+    background-color: #a70c0c ;
+   
+    border-color: black;
+   
+  }
+   
+  .page-link:focus, .page-link:hover {
+   
+    color: #a70c0c;
+   
+    text-decoration: none;
+   
+    background-color: white;
+   
+    border-color: black;
+   
+  }
